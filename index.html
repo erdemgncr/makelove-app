@@ -6,8 +6,31 @@
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <meta name="description" content="Make Love — Tanış · Eşleş · Sev. Gerçek bağlantılar için modern arkadaşlık uygulaması.">
   <meta name="theme-color" content="#FD267A">
+
+  <!-- ───────────────────── SEO ───────────────────── -->
+  <title>Make Love — Tanış · Eşleş · Sev</title>
+  <meta name="description" content="Make Love: gerçek insanlarla tanış, eşleş ve sev. Gerçek fotoğraflı profiller, akıllı eşleşme, güvenli sohbet ve LGBTİ+ dostu Hard mod. Ücretsiz başla.">
+  <meta name="keywords" content="tanışma, arkadaşlık, dating, eşleşme, flört, ilişki, LGBTİ+, Make Love, sohbet">
+  <meta name="author" content="Make Love">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="Turkish">
+  <link rel="canonical" href="https://erdemgncr.github.io/makelove-app/">
+
+  <!-- Open Graph (Facebook / WhatsApp / LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Make Love">
+  <meta property="og:title" content="Make Love — Tanış · Eşleş · Sev">
+  <meta property="og:description" content="Gerçek insanlarla tanış, eşleş ve sev. Akıllı eşleşme, güvenli sohbet, LGBTİ+ dostu Hard mod.">
+  <meta property="og:url" content="https://erdemgncr.github.io/makelove-app/">
+  <meta property="og:image" content="https://erdemgncr.github.io/makelove-app/favicon.png">
+  <meta property="og:locale" content="tr_TR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Make Love — Tanış · Eşleş · Sev">
+  <meta name="twitter:description" content="Gerçek insanlarla tanış, eşleş ve sev. Akıllı eşleşme, güvenli sohbet, LGBTİ+ dostu Hard mod.">
+  <meta name="twitter:image" content="https://erdemgncr.github.io/makelove-app/favicon.png">
 
   <!-- iOS -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -17,10 +40,30 @@
 
   <!-- Favicon (degrade kalp) -->
   <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+  <link rel="icon" type="image/png" href="favicon.png"/>
   <link rel="apple-touch-icon" href="favicon.svg"/>
 
-  <title>Make Love — Tanış · Eşleş · Sev</title>
+  <!-- İkon fontunu önceden yükle → sayfa/mağaza açılırken ikon FOUT'u (bozuk açılıp
+       sonra düzelme) olmasın. Görsel CDN'e erken bağlan. -->
+  <link rel="preload" href="assets/fonts/MaterialIcons-Regular.otf" as="font" type="font/otf" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+  <link rel="dns-prefetch" href="https://images.unsplash.com">
+
   <link rel="manifest" href="manifest.json">
+
+  <!-- Yapılandırılmış veri (arama motorları için) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Make Love",
+    "description": "Gerçek insanlarla tanış, eşleş ve sev. Akıllı eşleşme, güvenli sohbet, LGBTİ+ dostu Hard mod.",
+    "applicationCategory": "SocialNetworkingApplication",
+    "operatingSystem": "Web, Android, iOS",
+    "inLanguage": "tr",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "TRY" }
+  }
+  </script>
 
   <style>
     html, body { margin: 0; padding: 0; height: 100%; background: #FD267A; }

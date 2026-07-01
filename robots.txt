@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://erdemgncr.github.io/makelove-app/sitemap.xml

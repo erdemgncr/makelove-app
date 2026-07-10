@@ -112,7 +112,11 @@
   </div>
 
   <script>
-    // Flutter ilk kareyi çizince yükleme ekranını yumuşakça kaldır.
+    // Flutter ilk kareyi GERÇEKTEN ÇİZİNCE yükleme ekranını yumuşakça kaldır.
+    // ÖNEMLİ: DOM'a flutter-view eklenmesini dinleme — o an kare henüz
+    // çizilmemiş oluyor ve arada boş (düz renk) ekran görünüyordu.
+    // 'flutter-first-frame' motorun ilk kareyi boyadığı andır; altta birebir
+    // aynı Dart splash hazır olduğundan geçiş görünmez = TEK yükleme ekranı.
     (function () {
       function done() {
         var el = document.getElementById('ml-loading');
@@ -120,12 +124,7 @@
         el.style.opacity = '0';
         setTimeout(function () { if (el && el.parentNode) el.parentNode.removeChild(el); }, 460);
       }
-      var obs = new MutationObserver(function () {
-        if (document.querySelector('flutter-view') || document.querySelector('flt-scene-host')) {
-          done(); obs.disconnect();
-        }
-      });
-      obs.observe(document.body, { childList: true, subtree: true });
+      window.addEventListener('flutter-first-frame', done);
       // Güvenlik: 12 sn sonra her halükârda kaldır.
       setTimeout(done, 12000);
     })();

@@ -51412,11 +51412,11 @@ return s==null?g:B.QK[s]
 case 134:s=A.co(h.bs(b))
 return s==null?g:B.T_[s]
 case 135:s=A.co(h.bs(b))
-return s==null?g:B.SK[s]
+return s==null?g:B.SJ[s]
 case 136:s=A.co(h.bs(b))
 return s==null?g:B.Rb[s]
 case 137:s=A.co(h.bs(b))
-return s==null?g:B.SI[s]
+return s==null?g:B.SH[s]
 case 138:r=h.bs(b)
 r.toString
 t.J.a(r)
@@ -106263,7 +106263,7 @@ if(l==="/splash"){if(m)return"/login"
 return p.bk($.dg(),t.d).ch?r:q}p=l==="/login"
 s=p||B.c.bP(l,"/legal")
 if(m)return s?r:"/login"
-if(p)return q
+if(p)return"/splash"
 if(B.c.bP(l,"/admin")){p=B.hH.n(0,n.dy.toLowerCase())
 p=!p}else p=!1
 if(p)return q
@@ -108072,7 +108072,7 @@ return r.as=s},
 $S:0}
 A.aMi.prototype={
 $1(a){var s,r,q,p=null,o=A.aO(p,p,B.k,p,p,new A.av(t.W.a(A.F(a).c.h(0,A.ay(t.R))).b,p,p,A.aU(2),p,p,B.r),p,4,p,p,p,p,40),n=t.p,m=A.b([],n)
-for(s=this.a,r=0;r<20;++r){q=B.SJ[r]
+for(s=this.a,r=0;r<20;++r){q=B.SI[r]
 m.push(new A.a1X(q,new A.aMh(s,a,q),p))}return A.hP(!0,new A.aI(B.qN,A.bx(A.b([o,B.cq,B.a7R,B.cq,A.wj(B.ks,m,B.ej,10,10)],n),B.m,B.l,B.R),p),!1,B.J,!0)},
 $S:70}
 A.aMh.prototype={
@@ -110562,7 +110562,7 @@ l(){var s=this.d
 s===$&&A.a()
 s.l()
 this.ag0()},
-D(a){var s=t.tL,r=A.N(new A.ap(B.SG,new A.aH5(this),s),s.i("B.E"))
+D(a){var s=t.tL,r=A.N(new A.ap(B.SL,new A.aH5(this),s),s.i("B.E"))
 return A.h_(new A.ek(A.iU(A.yX(new A.aH6(this,r)),0.2),null),!0,null)}}
 A.aH5.prototype={
 $1(a){this.a.a.toString
@@ -118712,10 +118712,10 @@ B.PI=s([239,191,189],t.t)
 B.PN=s(["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],t.s)
 B.PO=s(["Caz","\xc7izim","Plak","Kahve","\u015eiir"],t.s)
 B.Qc=s([4,9,14,19],t.t)
-B.SL=s([137,80,78,71,13,10,26,10],t.Z)
+B.SK=s([137,80,78,71,13,10,26,10],t.Z)
 B.Ov=new A.q2(0,"png")
 B.OF=new A.mf(B.Ov,!1,0,"png")
-B.Ot=new A.nU(B.SL,B.OF,0,"png")
+B.Ot=new A.nU(B.SK,B.OF,0,"png")
 B.SN=s([71,73,70,56,55,97],t.Z)
 B.Os=new A.nU(B.SN,B.j7,1,"gif87a")
 B.RI=s([71,73,70,56,57,97],t.Z)
@@ -119011,18 +119011,7 @@ B.Gh=new A.eY(0.75,B.eq,B.pQ,B.VQ,1.5)
 B.Sx=s([B.Gh],t.sq)
 B.Sy=s(["Teknoloji","K\xf6pekler","Kahve","Y\xfcr\xfcy\xfc\u015f","Sinema"],t.s)
 B.SE=s(["Kitap","\xc7ay","Anime","Resim","Kediler"],t.s)
-B.abo=new A.hW(0.08,0,1,30,null)
-B.abi=new A.hW(0.22,0.35,2,22,"\ud83d\udc95")
-B.abn=new A.hW(0.37,0.7,1,18,null)
-B.abh=new A.hW(0.5,0.15,2,26,"\ud83d\udd25")
-B.abq=new A.hW(0.63,0.55,1,20,null)
-B.abj=new A.hW(0.78,0.25,1,34,"\ud83d\ude0d")
-B.abl=new A.hW(0.9,0.85,2,16,null)
-B.abp=new A.hW(0.15,0.6,1,24,"\u2728")
-B.abk=new A.hW(0.45,0.9,1,28,"\ud83d\udc98")
-B.abm=new A.hW(0.7,0.05,2,19,null)
-B.SG=s([B.abo,B.abi,B.abn,B.abh,B.abq,B.abj,B.abl,B.abp,B.abk,B.abm],A.ag("C<hW>"))
-B.SH=s(["Pilates","Ko\u015fu","Sa\u011fl\u0131kl\u0131 ya\u015fam","K\xf6pekler","Plaj"],t.s)
+B.SG=s(["Pilates","Ko\u015fu","Sa\u011fl\u0131kl\u0131 ya\u015fam","K\xf6pekler","Plaj"],t.s)
 B.br=new A.km(0,"iliski")
 B.jk=new A.km(1,"arkadaslik")
 B.ym=new A.km(2,"belirsiz")
@@ -119035,11 +119024,22 @@ B.tn=s(["Selam herkese \ud83d\udc4b","Bu ak\u015fam bir etkinlik var m\u0131?","
 B.Fi=new A.pl(0,"count")
 B.Fj=new A.pl(1,"sum")
 B.Fk=new A.pl(2,"average")
-B.SI=s([B.Fi,B.Fj,B.Fk],A.ag("C<pl>"))
-B.SJ=s(["\u2764\ufe0f","\ud83d\udd25","\ud83d\udc8b","\ud83d\ude18","\ud83d\ude08","\ud83d\udc95","\ud83d\udca6","\ud83c\udf51","\ud83c\udf52","\ud83c\udf39","\ud83d\udc84","\ud83d\udc98","\ud83e\udd70","\ud83c\udf53","\ud83d\udc97","\ud83d\ude0d","\ud83e\udee6","\ud83d\udc9e","\u2763\ufe0f","\ud83d\udc8c"],t.s)
+B.SH=s([B.Fi,B.Fj,B.Fk],A.ag("C<pl>"))
+B.SI=s(["\u2764\ufe0f","\ud83d\udd25","\ud83d\udc8b","\ud83d\ude18","\ud83d\ude08","\ud83d\udc95","\ud83d\udca6","\ud83c\udf51","\ud83c\udf52","\ud83c\udf39","\ud83d\udc84","\ud83d\udc98","\ud83e\udd70","\ud83c\udf53","\ud83d\udc97","\ud83d\ude0d","\ud83e\udee6","\ud83d\udc9e","\u2763\ufe0f","\ud83d\udc8c"],t.s)
 B.OO=new A.yP(0,"success")
 B.OP=new A.yP(1,"failure")
-B.SK=s([B.OO,B.OP],A.ag("C<yP>"))
+B.SJ=s([B.OO,B.OP],A.ag("C<yP>"))
+B.abo=new A.hW(0.08,0,1,30,null)
+B.abi=new A.hW(0.22,0.35,2,22,"\ud83d\udc95")
+B.abn=new A.hW(0.37,0.7,1,18,null)
+B.abh=new A.hW(0.5,0.15,2,26,"\ud83d\udd25")
+B.abq=new A.hW(0.63,0.55,1,20,null)
+B.abj=new A.hW(0.78,0.25,1,34,"\ud83d\ude0d")
+B.abl=new A.hW(0.9,0.85,2,16,null)
+B.abp=new A.hW(0.15,0.6,1,24,"\ud83d\udc97")
+B.abk=new A.hW(0.45,0.9,1,28,"\ud83d\udc98")
+B.abm=new A.hW(0.7,0.05,2,19,null)
+B.SL=s([B.abo,B.abi,B.abn,B.abh,B.abq,B.abj,B.abl,B.abp,B.abk,B.abm],A.ag("C<hW>"))
 B.rx=new A.aB(63251,"MaterialIcons",null,!1)
 B.SM=s([B.dp,B.cT,B.rD,B.rC,B.j4,B.j6,B.rH,B.rs,B.rA,B.rt,B.rF,B.rB,B.ru,B.rz,B.j5,B.mJ,B.ry,B.j2,B.rx],A.ag("C<aB>"))
 B.F9=new A.k_(0,"unknown")
@@ -122143,7 +122143,7 @@ m=A.eA(21,a9,"G\xf6zl\xfckl\xfc kitap kurdu \ud83e\udd13 Fantastik roman ve s\u0
 l=A.b([A.bS(a9,c0,"eliz-1","eliz-a",A.bW("1488426862026-3ee34a7d66df")),A.bS("Festival",b3,"eliz-2","eliz-b",A.bW(c1)),A.bS(a9,b7,"eliz-3","eliz-c",A.bW(c2))],d1)
 l=A.eA(23,a9,"K\u0131z\u0131l sa\xe7, ye\u015fil g\xf6z, s\u0131n\u0131rs\u0131z enerji. Konser ve festival arkada\u015f\u0131 ar\u0131yorum. \ud83c\udfb8\ud83d\udd25",a3,a9,6,B.at,!1,169,"p-elizabeth",B.QC,!1,b9,A.cD("2026-06-22T11:59:00Z"),B.jl,"Elizabeth",!0,l,a9,!1,!0,"Ko\xe7")
 k=A.b([A.bS(a9,a7,"nat-1","nat-a",A.bW("1438761681033-6461ffad8d80")),A.bS("Mango","\ud83d\ude18","nat-2","nat-b",A.bW("1554384645-13eab165c24b"))],d1)
-k=A.eA(21,a9,"Pilates e\u011fitmeni \u2600\ufe0f Smoothie, g\xfcn do\u011fumu ko\u015fular\u0131 ve k\xf6pe\u011fim Mango. Pozitiflik garantili.",a3,a9,9,B.at,!1,171,"p-natalie",B.SH,!1,"Pilates E\u011fitmeni",A.cD("2026-06-22T07:20:00Z"),B.br,"Natalie",!1,k,a9,!1,!0,"Yay")
+k=A.eA(21,a9,"Pilates e\u011fitmeni \u2600\ufe0f Smoothie, g\xfcn do\u011fumu ko\u015fular\u0131 ve k\xf6pe\u011fim Mango. Pozitiflik garantili.",a3,a9,9,B.at,!1,171,"p-natalie",B.SG,!1,"Pilates E\u011fitmeni",A.cD("2026-06-22T07:20:00Z"),B.br,"Natalie",!1,k,a9,!1,!0,"Yay")
 j=A.b([A.bS(a9,c0,"alex-1","alex-a",A.bW("1531746020798-e6953c6e8e04")),A.bS(a9,b7,"alex-2","alex-b",A.bW(b5)),A.bS(a9,a5,"alex-3","alex-c",A.bW(c2))],d1)
 j=A.eA(23,a9,"Seyahat blogcusu. 31 \xfclke ve say\u0131yorum. Bir sonraki maceram sen olabilir misin? \ud83d\uddfa\ufe0f",a3,a9,17,B.at,!1,166,"p-alexsandra",B.Sv,!1,"\u0130\xe7erik \xdcreticisi",A.cD("2026-06-22T11:48:00Z"),B.ym,"Alexsandra",!0,j,a9,!1,!1,"Ba\u015fak")
 i=A.b([A.bS(a9,"\ud83c\udf52","zey-1","zeynep-a",A.bW(b4)),A.bS(a9,"\ud83d\udc98","zey-2","zeynep-b",A.bW(a8))],d1)

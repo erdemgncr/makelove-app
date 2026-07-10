@@ -46,6 +46,8 @@
   <!-- İkon fontunu önceden yükle → sayfa/mağaza açılırken ikon FOUT'u (bozuk açılıp
        sonra düzelme) olmasın. Görsel CDN'e erken bağlan. -->
   <link rel="preload" href="assets/fonts/MaterialIcons-Regular.otf" as="font" type="font/otf" crossorigin>
+  <!-- Ana uygulama paketi flutter.js beklemeden inmeye başlasın (açılış hızlanır). -->
+  <link rel="preload" href="main.dart.js" as="script">
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
   <link rel="dns-prefetch" href="https://images.unsplash.com">
 

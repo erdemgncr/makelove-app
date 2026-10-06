@@ -1,12 +1,17 @@
 {
-    "name": "makelove",
-    "short_name": "makelove",
-    "start_url": ".",
+    "name": "Make Love — Tanış · Eşleş · Sev",
+    "short_name": "Make Love",
+    "id": "./",
+    "start_url": "./",
+    "scope": "./",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#FD267A",
+    "theme_color": "#FD267A",
+    "description": "Gerçek insanlarla tanış, eşleş ve sev. Akıllı eşleşme, güvenli sohbet, LGBTİ+ dostu Hard mod.",
+    "lang": "tr",
+    "dir": "ltr",
     "orientation": "portrait-primary",
+    "categories": ["social", "lifestyle"],
     "prefer_related_applications": false,
     "icons": [
         {
